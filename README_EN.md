@@ -6,6 +6,11 @@ An open-source, unofficial Windows driver and host toolkit for the tested **6.5-
 
 This repository is a clean public rewrite of a larger private research workspace. It contains original host tooling, protocol documentation, sanitized measurements, and a Microsoft-sample-derived IddCx driver. It contains no vendor installer, firmware, device images, private certificates, personal media, or raw desktop captures.
 
+## AI used for this project's reverse engineering
+
+- **Planning, research, and technical breakthroughs**: Kimi-K3/K3.1
+- **Exploration, execution, and testing**: DeepSeek-V4.1-Flash
+
 ## What works
 
 - A Windows UMDF 2.25 / IddCx virtual display with a 720×1568, 30 Hz input mode.
