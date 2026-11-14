@@ -1,0 +1,20 @@
+SAMA USB Display — unofficial research driver
+
+Original host code and documentation are licensed under the MIT License in LICENSE.
+
+The indirect display driver in windows/idd/driver incorporates and modifies
+Microsoft's Windows driver sample. Original Microsoft copyright and license
+notices are retained. That code is distributed under the Microsoft Public
+License (MS-PL), reproduced in windows/idd/driver/LICENSE.
+
+Upstream reference:
+  https://github.com/microsoft/Windows-driver-samples
+  Commit: 2dc3fd3a0cc84a2933f2194e7ec0871584979071
+
+No vendor firmware, vendor application binaries, private keys, test certificates,
+or proprietary media are distributed by this repository.
+
+Python dependencies are fetched separately from their respective projects and
+are not bundled here. Video decoding uses a separately installed FFmpeg
+executable; its license and source obligations apply to any downstream package
+that chooses to redistribute FFmpeg.

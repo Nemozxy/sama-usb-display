@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "kind": "sanitized_host_send_summary",
+  "device_profile": {
+    "resolution": [720, 1568],
+    "pixel_format": "BGRA",
+    "required_identity": "chs_65inch.dev1_rom1.91"
+  },
+  "configuration": {
+    "change_threshold": 32,
+    "reinit_interval": 32,
+    "source_pixel_exact": false
+  },
+  "result": {
+    "frames_requested": 3600,
+    "frames_completed": 3600,
+    "elapsed_seconds": 254.691,
+    "steady_update_fps": 13.87,
+    "initialize_count": 121,
+    "delta_count": 3453,
+    "full_fallback_count": 26,
+    "tx_bytes": 2031693500,
+    "rx_bytes": 274432,
+    "rx_status_blocks_1024_bytes": 268,
+    "rx_reads": 243,
+    "connections": 1,
+    "reconnects": 0,
+    "offline_events": 0,
+    "port_released": true,
+    "mean_encode_ms": 17.45,
+    "mean_send_ms": 27.96
+  },
+  "source_ledger_sha256": "c0d493d966e40034628a1d04519bd720d9cb61add4bfc31ce39ab75745908ba4",
+  "excluded_content": [
+    "source_media",
+    "decoded_frames",
+    "raw_tx_rx",
+    "host_paths",
+    "port_names",
+    "device_instance_identifiers"
+  ],
+  "limitations": [
+    "host_send_completion_not_optical_panel_measurement",
+    "not_a_30_minute_stability_run",
+    "nonzero_threshold_visual_quality_not_accepted",
+    "device_render_performance_not_isolated",
+    "single_device_and_workload"
+  ]
+}

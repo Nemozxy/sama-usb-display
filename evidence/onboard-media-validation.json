@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "kind": "sanitized_onboard_media_validation",
+  "validation_date": "2026-11-05",
+  "device_profile": {
+    "resolution": [720, 1568],
+    "required_identity": "chs_65inch.dev1_rom1.91",
+    "video_format": "H.264 High / Level 3.2 / yuv420p in MP4, moov at end"
+  },
+  "factory_recovery": {
+    "media_bytes": 3314959,
+    "config_size_bytes": 132,
+    "config_md5": "abc2c196eab9beda3437eb6987bd5180",
+    "config_sync_and_readback_passed": true,
+    "manual_cold_boot": "passed",
+    "visual_result": "factory_video_played"
+  },
+  "custom_video_atomic_replacement": {
+    "target_mib": 16,
+    "media_bytes": 15936391,
+    "bulk_upload_completed": true,
+    "temporary_upload_size_and_md5_verified": true,
+    "persistent_staging_size_md5_and_sync_verified": true,
+    "atomic_rename_completed": true,
+    "active_file_size_md5_and_sync_verified": true,
+    "config_size_md5_and_sync_verified": true,
+    "software_reboot_requested": false,
+    "manual_cold_boot": "passed",
+    "visual_result": "custom_video_played",
+    "landscape_rotation_enabled_in_control_test": false
+  },
+  "fixed_defects": [
+    "active_media_was_previously_truncated_in_place_before_full_verification",
+    "manual_power_cycle_path_did_not_check_sync_for_media_and_config",
+    "post_upload_phases_were_misleadingly_displayed_as_upload_100_percent",
+    "reboot_only_failure_could_hide_completed_upload_and_config_results"
+  ],
+  "limitations": [
+    "one_successful_custom_video_cold_boot_not_long_term_power_cut_stability",
+    "software_reboot_and_post_upload_shell_channel_remain_unreliable",
+    "single_device_and_two_short_video_workloads",
+    "no_multi_image_playlist_or_arbitrary_codec_claim"
+  ],
+  "excluded_content": [
+    "source_media_names",
+    "source_media",
+    "decoded_frames",
+    "raw_tx_rx",
+    "host_paths",
+    "port_names",
+    "session_identifiers",
+    "device_instance_identifiers"
+  ]
+}
