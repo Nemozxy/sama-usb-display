@@ -8,11 +8,6 @@ An open-source, unofficial Windows driver and host toolkit for the tested **6.5-
 
 本仓库是对更大规模私有研究工作区的干净公开重写，包含自主编写的主机工具、协议文档、清洗后的测量数据，以及基于 Microsoft 示例修改的 IddCx 驱动。不包含原厂安装程序、固件、设备镜像、私有证书、个人媒体或原始桌面截图。
 
-## 本项目逆向所使用的 AI
-
-- **计划、研究、攻坚**：Kimi-K3/K3.1
-- **探查、执行、测试**：DeepSeek-V4.1-Flash
-
 ## 目前实现的功能
 
 - Windows UMDF 2.25 / IddCx 虚拟显示器，提供 720×1568、30 Hz 输入模式。
